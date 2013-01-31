@@ -1,0 +1,15 @@
+body {
+	background-color: #B3D0DC ;
+	color: #414C50;
+}
+
+a{
+	color: #80949C;
+}
+a:hover{
+	color: #2C3336;
+}
+.moreInfo{
+	background-color: #2C3336;
+	color: #B3D0DC;
+}

@@ -1,0 +1,69 @@
+
+#main_menu li {
+	list-style-type: none;
+	float: left;
+	position: relative;
+	
+}
+#main_menu li a{
+	display: block;
+	width: 100px;
+	padding:6px 10px;
+	border: solid 1px gray;
+	text-decoration: none;
+
+}
+#main_menu li .sub_menu{
+	position: absolute;
+	display: none;
+	margin-top: 1px;
+}
+#main_menu li{
+	margin-right: 20px;
+}
+#main_menu li:hover a{
+	background-color: #222;
+	color: #fff;
+}
+#main_menu li:hover a{
+	background-color: #222;
+	color: #fff;
+}
+
+#main_menu li:hover ul.sub_menu{
+	/*display: block;*/
+	
+}
+#main_menu ul.sub_menu a{
+	background-color: #fafafa;
+	color: gray;
+	font-size: 14px;
+	border:1px solid gray;
+	border-top: none;
+
+}
+#main_menu ul.sub_menu a:hover{
+	background-color: #6699ff
+
+}
+
+/*this ">" symbol says select direct child of the element and not grandchildren of that element*/
+#main_menu > ul > li > a {
+	border-radius: 10px 10px 0 0;
+	margin-bottom: -1px;
+	border-bottom: 1px solid gray;
+}
+
+/*apply the bottom border radius to only the last li element in the sub menu*/
+#main_menu li ul.sub_menu li:last-child a{
+	border-radius: 0 0 10px 10px;
+}
+
+#main_menu li .active{
+	background: #f0f8ff;
+	border-bottom: 1px solid #f0f8ff;
+
+}
+#main_menu li:hover .active{
+	border-bottom:1px solid #222;
+}

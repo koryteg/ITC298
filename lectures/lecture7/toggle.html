@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Lecture7</title>
+		<link rel="stylesheet" href="stylesheets/smoothness/jquery-ui-1.9.2.custom.css" />
+		<link rel="stylesheet" href="stylesheets/styles.css">
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	<script src="javascripts/jquery-1.8.3.min.js"></script>
+	<script src="javascripts/jquery-ui-1.9.2.custom.min.js"></script>
+	<script src="javascripts/script.js"></script>
+	<script>
+		$(function(){
+	$("#heart").toggle(moveLeft, moveRight);
+
+});
+
+function moveLeft(){
+	// $(this) represents the heart div
+	move($(this), 200);
+}
+function moveRight(){
+	move($(this), 0);
+}
+
+// selector should be the div we are animating.
+// distance should be the number of px to the left we are moving the selector
+function move(selector, distance){
+	
+	$(selector).animate({
+		left:distance + "px"
+	}, 200);
+}
+
+
+	</script>
+	</head>
+	<body>
+	<header>
+		<h1>Awesome Sweet lecture7 site!</h1>
+		<h2>dont you love it?</h2>
+	</header>
+	<a id="heartLink" href="#heart">play with my heart</a>
+	<div id="heart">
+		&hearts;
+	</div>
+	</body>
+</html>

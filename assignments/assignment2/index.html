@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Assignment2</title>
+		<link rel="stylesheet" href="stylesheets/goodtheme/jquery-ui-1.9.2.custom.css">
+		<link rel="stylesheet" href="javascripts/syntaxHighlighter/styles/shCore.css" />
+		<link rel="stylesheet" href="javascripts/syntaxHighlighter/styles/shCoreRDark.css" />
+		<link rel="stylesheet" href="stylesheets/styles.css">
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<script src="javascripts/jquery-1.8.3.min.js"></script>
+		<script src="javascripts/jquery-ui-1.9.2.custom.min.js"></script>
+		<!-- installed a plugin called syntax highlighter to make my code look fancy -->
+		<script src="javascripts/syntaxHighlighter/scripts/shCore.js"></script>
+		<script src="javascripts/syntaxHighlighter/scripts/shBrushXml.js"></script>
+		<script src="javascripts/syntaxHighlighter/scripts/shBrushCss.js"></script>
+		<script src="javascripts/syntaxHighlighter/scripts/shBrushJScript.js"></script>
+		<script src="javascripts/script.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Assignments!</h1>
+			<h3>here we can look through my assignments for ITC298!</h3>
+		</header>
+		<section id="assignments">
+			<ul class="sortable">
+				<li>
+					<a href="#assignment1">Assignment 1</a>
+				</li>
+				<li>
+					<a href="#assignment2">Assignment 2</a>
+				</li>
+				<li>
+					<a href="#assignment3">Assignment 3</a>
+				</li>
+			</ul>
+			<article id="assignment1">
+				<h3>About</h3>
+				<div>
+					<p>
+						In assignment 1 Portia gave us the task of building a website that tells her all about why we want to take this class while using jquery to:
+					</p>
+					<ol>
+						<li>
+							have a button that changes the styles on the site
+						</li>
+						<li>
+							have a picture of ourselves that fades away on a click event
+						</li>
+						<li>
+							have three reasons you are in the class(not really jQuery)
+						</li>
+					</ol>
+				</div>
+				<h3>Code</h3>
+				<div>
+					<p>
+						HTML:
+					</p>
+					<pre class="brush: xml">
+				<div class="wrapper">
+					<header>
+						<h1>Kory Tegman</h1>
+					</header>
+					<article>
+						<h2>i like <a href="#" id="style">style!</a> dont you?</h2>
+						<img src="images/kory.jpg" class="picture" />
+						<p>
+							What am I interested in? you may ask.
+						</p>
+						<p>
+							click
+							<button class="addLike">
+								here
+							</button>
+							and find out:
+						</p>
+						<ul>
+							<li class="hidden">
+								I really want to be a JS GURU!
+							</li>
+							<li class="hidden">
+								I want to learn AJAX!!!
+							</li>
+							<li class="hidden">
+								I would like to learn Backbone.js!
+							</li>
+							<li class="hidden">
+								So I can build an amazing node.js App that will cure cancer!(or something)
+							</li>
+						</ul>
+					</article>
+				</div>
+				</pre>
+				<p>
+					CSS:
+				</p>
+				<pre class="brush: css">
+					.wrapper{
+					width:500px;
+					margin:0 auto;
+					border:black solid 1px;
+
+					}
+					.picture {
+					width:180px;
+					}
+					.gone{
+					display:none;
+					}
+
+					.hidden{
+					visibility:hidden;
+					}
+					.style1{
+					color: #002244;
+					font-style:underline;
+					background-color:#A5ACAF;
+
+					}
+					.style2{
+					color:#69BE28;
+					font:bold;
+					background-color:#818A8F;
+					}
+				</pre>
+				<p>
+					Javascript:
+				</p>
+				<pre class="brush: js">
+				/**
+				 * @author Kory tegman
+				 */
+
+				$(function(){
+					$("img").click(gone);
+					$("#style").toggle(style1, style2);
+					$(".addLike").click(addLike);
+				});
+
+				function gone(){
+					$(this).fadeOut();
+
+				}
+
+				function style1(){
+					if ($("body").hasClass("style1")){
+						$("body").removeClass("style1");
+					}
+					$("body").addClass("style2");
+				};
+
+				function style2(){
+					if ($("body").hasClass("style2")){
+						$("body").removeClass("style2");
+					}
+					$("body").addClass("style1");
+				}
+				//this is the code that I added as a zinger!
+				function addLike(){
+					$(".hidden").first().removeClass("hidden");
+					var hidden = $("li").hasClass("hidden");
+					if (hidden == false){
+						alert("that is all I care about!");
+					}
+				}
+				</pre>
+				</div>
+				<h3>Finished Product</h3>
+				<div>
+					<a href="../assignment1/index.html">link to assignment1</a>
+				</div>
+			</article>
+			<article id="assignment2">
+				<h3>About</h3>
+				<p>
+					this is assignment 2!
+				</p>
+				<h3>Code</h3>
+				<p>
+					im code!
+				</p>
+				<h3>Finished Product</h3>
+				<p>
+					your're looking at it!
+				</p>
+			</article>
+			<article id="assignment3">
+				<h3>About</h3>
+				<p>
+					coming soon!
+				</p>
+				<h3>Code</h3>
+				<p>
+					coming soon!
+				</p>
+				<h3>Finished Product</h3>
+				<p>
+					coming soon!
+				</p>
+			</article>
+
+		</section>
+	</body>
+</html>

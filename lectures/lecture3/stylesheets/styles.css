@@ -1,0 +1,14 @@
+body {
+
+}
+.style1{
+	color:green;
+	font-style:italic;
+	background-color:blue;
+	
+}
+.style2{
+	color:green;
+	font:bold;
+	background-color:gray;
+}

@@ -1,0 +1,28 @@
+.wrapper{
+	width:500px;
+	margin:0 auto;
+	border:black solid 1px;
+	
+}
+.picture {
+	width:180px;
+}
+.gone{
+	display:none;
+}
+
+
+.hidden{
+	visibility:hidden;
+}
+.style1{
+	color: #002244;
+	font-style:underline;
+	background-color:#A5ACAF;
+	
+}
+.style2{
+	color:#69BE28;
+	font:bold;
+	background-color:#818A8F;
+}

@@ -1,0 +1,342 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"h",
+				"h5	Tag"
+			],
+			[
+				"exp",
+				"expandContract"
+			],
+			[
+				"e",
+				"expand"
+			],
+			[
+				"ex",
+				"expand"
+			],
+			[
+				"dd",
+				"ddSlideUp"
+			],
+			[
+				"botto",
+				"border-bottom"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"f",
+				"f0f8ff"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"gr",
+				"gray"
+			],
+			[
+				"su",
+				"sub_menu"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"hi",
+				"height"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"c",
+				"color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "assignments/assignment3/index.html",
+			"settings":
+			{
+				"buffer_size": 3913,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assignments/assignment3/css/base.css",
+			"settings":
+			{
+				"buffer_size": 588,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assignments/assignment3/js/script.js",
+			"settings":
+			{
+				"buffer_size": 893,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kory/school-workspace/ITC298/itc298/lectures/lecture8/css/nav.css",
+		"/Users/kory/school-workspace/ITC298/itc298/lectures/lecture8/js/navbar.js",
+		"/Users/kory/school-workspace/ITC298/itc298/lectures/lecture8/index.html",
+		"/Users/kory/school-workspace/ITC298/itc298/lectures/lecture8/css/styles.css",
+		"/Users/kory/school-workspace/ITC298/itc298/assignments/assignment3/css/seahawks.css",
+		"/Users/kory/school-workspace/ITC298/itc298/assignments/assignment3/css/style2.css",
+		"/Users/kory/school-workspace/ITC298/itc298/assignments/assignment3/css/style1.css",
+		"/Users/kory/school-workspace/ITC298/itc298/assignments/assignment3/css/base.css",
+		"/Users/kory/school-workspace/ITC298/itc298/assignments/assignment3/js/script.js",
+		"/Users/kory/school-workspace/ITC298/itc298/assignments/assignment3/index.html",
+		"/Users/kory/school-workspace/ITC298/itc298/assignments/assignment3/js/jquery-ui-1.9.2.custom.min.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"content"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "assignments/assignment3/index.html",
+					"settings":
+					{
+						"buffer_size": 3913,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2936,
+								2936
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1067.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assignments/assignment3/css/base.css",
+					"settings":
+					{
+						"buffer_size": 588,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								560,
+								560
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assignments/assignment3/js/script.js",
+					"settings":
+					{
+						"buffer_size": 893,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								54,
+								54
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"sea",
+				"assignments/assignment3/css/seahawks.css"
+			],
+			[
+				"de",
+				"assignments/assignment3/css/default.css"
+			],
+			[
+				"",
+				"assignments/assignment3/index.html"
+			],
+			[
+				".js",
+				"assignments/assignment3/js/script.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 206.0,
+	"status_bar_visible": true
+}

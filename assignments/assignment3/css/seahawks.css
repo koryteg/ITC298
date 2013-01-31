@@ -1,0 +1,19 @@
+/* colors were taking from the seahawks design release at
+http://www.seahawksmedia.com/images/Seattle-2012-logo-Slick.pdf */
+
+body{
+	background-color: #A5ACAF;
+	color: #002244;
+}
+
+a{
+	color: #002C5F;
+}
+a:hover{
+	color: #69BE28;
+}
+
+.moreInfo{
+	background-color: #69BE28;
+	color: #002244;
+}

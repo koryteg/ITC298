@@ -1,0 +1,18 @@
+body {
+	
+	font-size:1.1em;
+	background-color: #E3CDA4 ;
+	color: #2F343B;
+}
+
+a{
+	color:#7E827A;
+}
+a:hover{
+	color: #703030;
+}
+
+.moreInfo{
+	background-color: #2F343B;
+	color: #E3CDA4;
+}

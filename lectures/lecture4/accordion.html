@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Lecture4</title>
+		<link rel="stylesheet" href="stylesheets/smoothness/jquery-ui-1.9.2.custom.css">
+		<link rel="stylesheet" href="stylesheets/styles.css">
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	<script src="javascripts/jquery-1.8.3.min.js"></script>
+	<script src="javascripts/jquery-ui-1.9.2.custom.min.js"></script>
+	<script>
+		$(function(){
+	$("#puppyInfo").accordion({
+		collapsible: true,
+		active: false
+	});
+});
+
+	</script>
+	</head>
+	<body>
+	<header>
+		<h1>Accordion App About Puppies</h1>
+	</header>
+	<!-- create a section for an accordion -->
+	<article id="puppyInfo">
+		
+			<h3>Pitbul</h3>
+			<section>
+				<p>somentimes scary but if trained right are really lovable</p>
+			</section>
+			<h3>Golden Retriever</h3>
+			<section>
+				<p>happy loyal dog</p>
+			</section>
+			<h3>Blood Hound</h3>
+			<section>
+				<p>good stuff is here!</p>
+			</section>
+		
+	</article>
+	</body>
+</html>
